@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-fluid-typography",
+  "version": "1.0.0",
+  "description": "A tailwind plugin which generates clamp() functions directly in tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazy-sock/tailwindcss-fluid-typography.git"
+  },
+  "author": "lazy sock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lazy-sock/tailwindcss-fluid-typography/issues"
+  },
+  "homepage": "https://github.com/lazy-sock/tailwindcss-fluid-typography#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
