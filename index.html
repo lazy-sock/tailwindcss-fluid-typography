@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico">
+    <meta name="generator" content="Astro v2.0.10">
+    <title>tailwindcss-fluid-typography</title>
+  <link rel="stylesheet" href="/tailwindcss-fluid-typography/_astro/index.f22d9c64.css" /></head>
+  <body class="bg-[#d2f7ff]">
+    <style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).idle=t=>{const e=async()=>{await(await t())()};"requestIdleCallback"in window?window.requestIdleCallback(e):setTimeout(e,200)},window.dispatchEvent(new Event("astro:idle"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><header>
+    <div class="flex h-20 items-center justify-center gap-8 lg:justify-end lg:pl-8 lg:pr-24">
+      <a href="/" class="mr-auto hidden font-lora text-[1.5rem] lg:block">
+        tailwindcss-fluid-typography
+      </a>
+      <a href="https://github.com/lazy-sock/tailwindcss-fluid-typography" class="block">
+        <img src="/github.svg" class="h-8 drop-shadow-md transition-shadow hover:drop-shadow-xl">
+      </a>
+      <a href="https://www.npmjs.com/package/@lazy_sock/tailwindcss-fluid-typography" class="block">
+        <img src="/npm.svg" class="h-7 drop-shadow-md transition-shadow hover:drop-shadow-xl">
+      </a>
+    </div>
+  </header><main class="mx-auto w-full max-w-[1200px] p-4">
+    <div class="relative flex flex-col items-center gap-4 p-4">
+      <div class="/[right:calc(clamp(1rem,0.95rem+0.25vw,1.25rem)*(-1))] absolute -right-24 top-48 hidden rotate-12 xl:block">
+        <div class="/lg:text-[1.25rem] mt-12 w-fit rounded-lg bg-[#0D1117] px-4 py-3">
+  <pre class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">&lt;</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">class</span><span style="color: #FF7B72">=</span><span style="color: #A5D6FF">&quot;fluid-[2_3.5_400_1000]&quot;</span><span style="color: #C9D1D9">&gt;&lt;/</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9">&gt;</span></span></code></pre>
+</div>
+      </div>
+      <div class="/[right:calc(clamp(1rem,0.95rem+0.25vw,1.25rem)*(-1))] absolute -left-28 top-40 hidden -rotate-3 xl:block">
+        <div class="/lg:text-[1.25rem] mt-12 w-fit rounded-lg bg-[#0D1117] px-4 py-3">
+  <pre class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">&lt;</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">class</span><span style="color: #FF7B72">=</span><span style="color: #A5D6FF">&quot;fluid-[1_2_300_800]&quot;</span><span style="color: #C9D1D9">&gt;&lt;/</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9">&gt;</span></span></code></pre>
+</div>
+      </div>
+      <h1 class="/text-[3.5rem] text-center font-lora leading-[1.2] fluid-[2_3.5_400_1000]">
+        Make text scale linearly with Tailwind.
+      </h1>
+      <div class="/fluid-[0.75_1.4_400_800] relative mb-12 mt-20 w-fit rounded-lg bg-[#0D1117] px-4 py-3 text-[0.75rem] shadow-lg md:text-[1.4rem]">
+        <pre class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #C9D1D9">&lt;</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9"> </span><span style="color: #79C0FF">class</span><span style="color: #FF7B72">=</span><span style="color: #A5D6FF">&quot;fluid-[1_3.5_360_840]&quot;</span><span style="color: #C9D1D9">&gt;&lt;/</span><span style="color: #7EE787">h1</span><span style="color: #C9D1D9">&gt;</span></span></code></pre>
+        <div class="absolute inset-x-0 -left-2 -top-[40px] h-[200px] bg-[url('/arrows-small.svg')] bg-no-repeat mix-blend-difference md:left-0 md:-top-[70px] md:bg-[url('/arrows-large.svg')]">
+        </div>
+        <p class="absolute -bottom-[55px] left-[53px] font-lora max-md:text-[1rem] md:-bottom-[75px] md:left-[120px]">
+          Min-Size
+        </p>
+        <p class="absolute -top-[50px] left-[68px] font-lora max-md:text-[1rem] md:-top-[75px] md:left-[155px]">
+          Max-Size
+        </p>
+        <p class="absolute -bottom-[50px] right-[20px] font-lora max-md:text-[1rem] md:-bottom-[55px] md:right-[50px]">
+          Min-VW
+        </p>
+        <p class="absolute -top-[50px] right-[6px] font-lora max-md:text-[1rem] md:-top-[75px] md:right-[25px]">
+          Max-VW
+        </p>
+      </div>
+      <div class="mx-auto mt-12 flex w-fit items-center rounded-lg bg-[#0D1117] px-4 py-3 font-mono text-white shadow-xl fluid-[1_1.5_400_800]">
+        <span class="mr-4 select-none text-sky-500">&gt;</span>npm i
+        @lazy_sock/tailwindcss-fluid-typography
+        <div class="ml-4 inline-flex h-full items-end justify-end">
+          <astro-island uid="1RmqSx" component-url="/tailwindcss-fluid-typography/_astro/Copy.f3cc1458.js" component-export="default" renderer-url="/tailwindcss-fluid-typography/_astro/client.502e3c6a.js" props="{}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;Copy&quot;,&quot;value&quot;:true}" await-children=""><button id="btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-6 w-6 stroke-white md:h-8 md:w-8"><path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></astro-island>
+        </div>
+      </div>
+    </div>
+    <div class="relative mt-20 lg:mt-44">
+      <h1 class="mb-12 text-center font-lora leading-[1.2] fluid-[2_3.5_400_1000]">
+        How to make fluent typography
+      </h1>
+
+      <div class="flex flex-wrap gap-12">
+        <div class="relative mx-auto w-[300px] rounded bg-white p-4 font-lora shadow-md">
+          <div class="absolute -top-10 -left-9 -z-10 hidden text-[5rem] sm:block">
+            1
+          </div>
+          <h1 class="text-[1.5rem] md:text-[1.75rem]">Choose font-sizes</h1>
+          <p class="text-[1.25rem] font-semibold">
+            Find out which font-size would fit for mobile and which for desktop.
+          </p>
+        </div>
+        <div class="relative mx-auto w-[300px] rounded bg-white p-4 font-lora shadow-md">
+          <div class="absolute -top-10 -left-9 -z-10 hidden text-[5rem] sm:block">
+            2
+          </div>
+          <h1 class="text-[1.5rem] md:text-[1.75rem]">Choose breakpoints</h1>
+          <p class="text-[1.25rem] font-semibold">
+            Find out where you want to change your font-size.
+          </p>
+        </div>
+        <div class="relative mx-auto w-[300px] rounded bg-white p-4 font-lora shadow-md">
+          <div class="absolute -top-10 -left-9 -z-10 hidden text-[5rem] sm:block">
+            3
+          </div>
+          <h1 class="text-[1.5rem] md:text-[1.75rem]">Refine</h1>
+          <p class="text-[1.25rem] font-semibold">
+            Try out slightly different values. Maybe it will look better!
+          </p>
+        </div>
+      </div>
+      <h1 class="mt-32 mb-5 text-center font-lora leading-[1.2] fluid-[2_3.5_400_1000]">
+        Useful links
+      </h1>
+      <div class="flex flex-wrap gap-12 text-[1.5rem]">
+        <a href="https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/" class="grid grid-rows-[175px_1fr] gap-6 rounded-lg bg-white p-4 font-lora shadow-md max-md:mx-auto max-sm:w-full sm:grid-cols-[400px]">
+          <div class="rounded-xl bg-[url('css-tricks.png')] bg-cover shadow-md">
+          </div>
+          <p>CSS Tricks article about scaling fonts linearly</p>
+        </a>
+        <a href="https://royalfig.github.io/fluid-typography-calculator/" class="grid grid-rows-[175px_1fr] gap-6 rounded-lg bg-white p-4 font-lora shadow-md max-md:mx-auto max-sm:w-full sm:grid-cols-[400px]">
+          <div class="rounded-xl bg-[url('clamp-calculator.png')] bg-cover shadow-md">
+          </div>
+          <p>Clamp Calculator</p>
+        </a>
+      </div>
+    </div>
+  </main><footer class="relative mt-24 h-24 bg-[#161a1a] p-8 font-lora text-white">
+    <div class="absolute inset-x-0 bottom-0 flex items-center justify-center gap-8 px-20 py-6 lg:right-0 lg:justify-end">
+      <a href="https://github.com/lazy-sock/tailwindcss-fluid-typography" class="block">
+        <div class="h-10 w-10">
+          <svg width="40" height="40" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#FFF"></path>
+          </svg>
+        </div>
+      </a>
+      <a href="https://www.npmjs.com/package/@lazy_sock/tailwindcss-fluid-typography" class="block">
+        <div class="flex items-center justify-center">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="35" height="35"><title>npm</title><path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z"></path></svg>
+        </div>
+      </a>
+    </div>
+  </footer>
+  </body></html>
