@@ -4,8 +4,23 @@ A tailwindcss plugin generating clamp functions directly in tailwind.
 
 ## Installation
 
+Install it:
+
 ```bash
 npm i @lazy_sock/tailwindcss-fluid-typography
+```
+
+Then add it to the tailwind config:
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("@lazy_sock/tailwindcss-fluid-typography")],
+};
 ```
 
 ## Usage
