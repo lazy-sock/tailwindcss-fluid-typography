@@ -1,12 +1,11 @@
 # tailwindcss-fluid-typography
 
-A tailwindcss plugin generating clamp functions directly in tailwind.  
-website:
+A tailwindcss plugin generating clamp functions directly in tailwind.
 
 ## Installation
 
 ```bash
-npm i tailwindcss-fluid-typography
+npm i @lazy_sock/tailwindcss-fluid-typography
 ```
 
 ## Usage
