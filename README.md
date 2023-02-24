@@ -1,6 +1,7 @@
 # tailwindcss-fluid-typography
 
 A tailwindcss plugin generating clamp functions directly in tailwind.
+website: https://lazy-sock.github.io/tailwindcss-fluid-typography/
 
 ## Installation
 
