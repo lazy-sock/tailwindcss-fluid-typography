@@ -8,7 +8,7 @@ website: https://lazy-sock.github.io/tailwindcss-fluid-typography/
 Install it:
 
 ```bash
-npm i @lazy_sock/tailwindcss-fluid-typography
+npm i -D @lazy_sock/tailwindcss-fluid-typography
 ```
 
 Then add it to the tailwind config:
